@@ -1,7 +1,7 @@
 package trowsexception;
 
 public class Bank implements Cloneable { //implements Cloneable is not write here then throws CloneNotSupportedException  
-
+//Used to Used to declare exception,multiple exception at a time,decleare in Method signature
 	public static void main(String[] args) throws CloneNotSupportedException  {
 		Bank b1 = new Bank();
 		Bank b2 =  (Bank) b1.clone();
