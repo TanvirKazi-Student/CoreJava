@@ -1,7 +1,7 @@
 package trowexception;
 
 import java.util.Scanner;
-
+//Used to create/throw an exception,One exception at a time,Method body
 public class BankAccount {
 
 	private double balance;
